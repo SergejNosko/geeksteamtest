@@ -1,0 +1,36 @@
+button.submit{
+    color: blue;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: none;
+    min-width: 120px;
+    min-height: 50px;
+}
+button.btn:focus{
+    box-shadow: none;
+}
+button.submit img{
+    margin-left: 5px;
+}
+.logo{
+    margin-bottom: 30px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+input.failed{
+    border: 2px solid red;
+}
+button.submit img.gear{
+    animation: twist 2s linear;
+    margin-left: 0;
+}
+@keyframes twist {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.success{
+    vertical-align: middle;
+}
